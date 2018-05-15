@@ -98,12 +98,6 @@ public class GameScreen extends ScreenAdapter {
         createStage();
     }
     @Override
-    public void dispose(){
-        mSound.dispose();
-
-    }
-
-    @Override
     public void render(float delta) {
         //それぞれの状態をアップデートする
         update(delta);
