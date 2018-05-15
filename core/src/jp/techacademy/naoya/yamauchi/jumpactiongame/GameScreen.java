@@ -96,7 +96,6 @@ public class GameScreen extends ScreenAdapter {
 
         mSound = Gdx.audio.newSound(Gdx.files.internal("sound.mp3"));
         createStage();
-        dispose();
     }
     @Override
     public void dispose(){
